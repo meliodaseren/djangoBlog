@@ -34,3 +34,4 @@ def post_record(request, id):
     next_post = posts[1] if len(posts) > 1 else None
     # post = Post.objects.get(id = id)
     return render(request, 'blog/post_record.html', locals())
+
