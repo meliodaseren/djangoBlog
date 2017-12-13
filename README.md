@@ -56,7 +56,7 @@ $ deactivate
 
 ---
 
-## 運行伺服器
+## 運行 Django
 
 ```shell
 $ python manage.py runserver 8000
@@ -66,7 +66,7 @@ $ python manage.py runserver 8000
 
 Blog：`127.0.0.1:8000/blog`
 
-## 建立超級用戶以便管理後台
+### 建立超級用戶以便管理後台
 
 ```shell
 $ python manage.py createsuperuser
@@ -77,19 +77,19 @@ https://www.mercurytide.co.uk/media/resources/django-cheat-sheet.pdf
 
 ---
 
-# Django 2.0 測試除錯
+## Django 2.0 測試除錯
 
 此 Repo 使用 Django 2.0，它已經不再支援 Python 2，版本升級請參考下列官方文件：
 
 https://docs.djangoproject.com/en/2.0/howto/upgrade-version/
 
-## 測試
+### 測試
 
 ```shell
 $ python -Wall manage.py test
 ```
 
-## 除錯
+### 除錯
 
 1. Django 2.0 ForeignKey 需加上 on_delete
 
